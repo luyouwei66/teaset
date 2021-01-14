@@ -79,7 +79,7 @@ export default class ToastView extends Overlay.View {
       image = icon;
     }
     return (
-      <View style={{paddingTop: Theme.toastIconPaddingTop, paddingBottom: Theme.toastIconPaddingBottom}}>
+      <View style={{paddingTop: sph(Theme.toastIconPaddingTop), paddingBottom: sph(Theme.toastIconPaddingBottom)}}>
         {image}
       </View>
     );
